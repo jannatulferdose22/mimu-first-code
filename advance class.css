@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* form start */
+.login-container{
+    display: flex;
+    justify-content: center;
+    background-color:burlywood;
+    height: 600px;
+
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    width: 50%;
+}
+.login h2{
+    text-align: center;
+}
+.login input{
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.login input[ type="submit"]{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    transition: .4s all ease-in;
+    cursor: pointer;
+}
+.login input[ type="submit"]:hover{
+    background-color: transparent;
+    color: white;
+}
